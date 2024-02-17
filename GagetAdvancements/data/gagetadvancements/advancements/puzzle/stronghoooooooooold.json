@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Stronghoooooooooold",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Eye see it!",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:ender_eye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"   
+}

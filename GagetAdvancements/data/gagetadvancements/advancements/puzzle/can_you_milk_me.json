@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "\"Can you Milk me?\"",
+            "color": "white"
+        },
+        "description": {
+            "translate": "At least take them to dinner first!",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"  
+}

@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Trick or Treat",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Trick or treat, smell my feet. Give me something good to eat.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:carved_pumpkin"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"   
+}

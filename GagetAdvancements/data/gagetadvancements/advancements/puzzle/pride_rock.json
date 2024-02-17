@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Pride Rock",
+            "color": "white"
+        },
+        "description": {
+            "translate": "It's the circle of life.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:acacia_sapling"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"  
+}

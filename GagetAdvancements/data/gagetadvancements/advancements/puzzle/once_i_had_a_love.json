@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Once I had a love",
+            "color": "white"
+        },
+        "description": {
+            "translate": "And it was a ghast",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:ink_sac"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"   
+}

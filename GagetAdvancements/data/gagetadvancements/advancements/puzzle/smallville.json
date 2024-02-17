@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Smallville",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Truth, Justice and the American Way.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:emerald"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"  
+}

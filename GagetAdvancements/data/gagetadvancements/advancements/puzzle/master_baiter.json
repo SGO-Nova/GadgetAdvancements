@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Master Baiter",
+            "color": "white"
+        },
+        "description": {
+            "translate": "I just got a promotion at the tackle shop, I'm now a master baiter.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:fishing_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"   
+}

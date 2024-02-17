@@ -1,0 +1,29 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Water you doing here?",
+            "color": "white"
+        },
+        "description": {
+            "translate": "I personaly wouldn't put it out with water.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:splash_potion",
+            "nbt": "{Potion:\"water_breathing\"}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"  
+}

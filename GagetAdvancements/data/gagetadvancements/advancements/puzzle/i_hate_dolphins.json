@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "I hate Dolphins",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Did you know that dolphins breathe air?",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"  
+}

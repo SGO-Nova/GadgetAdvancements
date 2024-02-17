@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Deadliest Catch",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Sig Hansen would be proud.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:spawner"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"   
+}

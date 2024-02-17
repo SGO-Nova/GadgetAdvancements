@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Nether doing that again",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Yeah I know what grass looks like.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:netherrack"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"   
+}

@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Space Jam",
+            "color": "white"
+        },
+        "description": {
+            "translate": "I may not be very tall, but I'm slow.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:hopper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"  
+}

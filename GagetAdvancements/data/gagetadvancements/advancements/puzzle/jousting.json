@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Jousting",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Lets them go! Lets them go!",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:trident"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"  
+}

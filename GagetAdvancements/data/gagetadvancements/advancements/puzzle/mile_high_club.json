@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Mile High Club",
+            "color": "white"
+        },
+        "description": {
+            "translate": "86400 seconds of feeling like a bird.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:elytra"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"   
+}

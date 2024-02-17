@@ -1,0 +1,29 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "X-Ray",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Might have to call the admins.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"fire_resistance\"}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"  
+}

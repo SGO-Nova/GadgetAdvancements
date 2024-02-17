@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Yacht Club",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Dude stop, you're gonna get water on my new Gucci's!",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:oak_boat"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"   
+}

@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Welcome to Hogwarts",
+            "color": "white"
+        },
+        "description": {
+            "translate": "You're wizard Harry!",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:end_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"   
+}

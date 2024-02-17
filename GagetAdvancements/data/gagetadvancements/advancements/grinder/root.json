@@ -1,0 +1,26 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Gaget Grinder Challenges",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Get grinding, scrub",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "background": "minecraft:textures/block/chiseled_tuff_bricks_top.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

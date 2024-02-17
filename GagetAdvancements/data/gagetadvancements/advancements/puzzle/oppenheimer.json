@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Oppenheimer",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Now I am become death, the destroyer of worlds.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:tnt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"  
+}

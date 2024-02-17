@@ -1,0 +1,28 @@
+{
+    "display":
+    {
+        "title": 
+        {
+            "translate": "Competitive Eating",
+            "color": "white"
+        },
+        "description": {
+            "translate": "Don't forget to watch it down with water and a milkshake.",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "minecraft:cookie"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": 
+    {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "gagetadvancements:puzzle/root"  
+}

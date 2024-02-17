@@ -3,21 +3,20 @@
     {
         "title": 
         {
-            "translate": "Gaget Challenges",
+            "translate": "Gaget Puzzle Challenges",
             "color": "white"
         },
         "description": {
-            "translate": "Get working, scrub",
+            "translate": "Can you solve these puzzles?",
             "color": "white"
         },
         "icon":
         {
-            "item": "minecraft:diamond_axe"
+            "item": "minecraft:stone"
         },
         "background": "minecraft:textures/block/chiseled_tuff_bricks_top.png",
         "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false
+        "announce_to_chat": false
     },
     "criteria": {
         "start": {
