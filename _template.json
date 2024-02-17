@@ -1,0 +1,37 @@
+{
+    "display":
+    {
+        
+        "title": 
+        {
+            "text": "",
+            "color": "white"
+        },
+        "description": {
+            "translate": "",
+            "color": "white"
+        },
+        "icon":
+        {
+            "item": "",
+            "nbt": ""
+        },
+        "frame": "task",
+        "background": "minecraft:textures/block/chiseled_tuff_bricks_top.png",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": 
+    {
+
+    },
+    "requirements": [],
+    "rewards":
+    {
+        "recipes": [],
+        "loot": [],
+        "experience": 0,
+        "function": ""
+    }    
+}
