@@ -1,2 +1,2 @@
 # GagetAdvancements
-Minecraft data pack for GadgetGaming.
+Minecraft data pack for GagetGaming.
